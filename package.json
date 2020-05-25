@@ -32,6 +32,9 @@
   },
   "name": "expensify",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.5.x"
+  },
   "main": "index.js",
   "author": "Stephen Bilham",
   "license": "MIT",
