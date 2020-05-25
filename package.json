@@ -33,7 +33,8 @@
   "name": "expensify",
   "version": "1.0.0",
   "engines": {
-    "node": "13.5.x"
+    "node": "13.5.x",
+    "yarn": "1.22.x"
   },
   "main": "index.js",
   "author": "Stephen Bilham",
