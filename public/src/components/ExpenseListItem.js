@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import moment from "moment";
 import numeral from "numeral";
+import moment from "moment";
 
 //Export a stateless functional component
 //numeral js - amount fix
