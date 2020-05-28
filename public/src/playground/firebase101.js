@@ -1,20 +1,19 @@
-import * as firebase from "firebase";
-import { expenses } from "../tests/fixtures/expenses";
+// import * as firebase from "firebase";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCG2MxSpM7pNqcGpOlbrv3EDgt-ki-iKrw",
-  authDomain: "expensify-8a66d.firebaseapp.com",
-  databaseURL: "https://expensify-8a66d.firebaseio.com",
-  projectId: "expensify-8a66d",
-  storageBucket: "expensify-8a66d.appspot.com",
-  messagingSenderId: "206017413049",
-  appId: "1:206017413049:web:6fb3a1700e05bbf33fc068",
-  measurementId: "G-YNKS0HZ6VY"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCG2MxSpM7pNqcGpOlbrv3EDgt-ki-iKrw",
+//   authDomain: "expensify-8a66d.firebaseapp.com",
+//   databaseURL: "https://expensify-8a66d.firebaseio.com",
+//   projectId: "expensify-8a66d",
+//   storageBucket: "expensify-8a66d.appspot.com",
+//   messagingSenderId: "206017413049",
+//   appId: "1:206017413049:web:6fb3a1700e05bbf33fc068",
+//   measurementId: "G-YNKS0HZ6VY"
+// };
 
-firebase.initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig);
 
-const database = firebase.database();
+// const database = firebase.database();
 
 // database.ref("expenses").on("value", snapshot => {
 //   const expenses = [];
