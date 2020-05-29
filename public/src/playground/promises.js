@@ -7,7 +7,11 @@ const promise = new Promise((resolve, reject) => {
 
 promise
   .then(data => {
-    console.log(data);
+    console.log("1", data);
+    return "some string";
+  })
+  .then(str => {
+    console.log("does this run?", str); //yes returns does this run, some string.
   })
   .catch(error => {
     console.log(error);
