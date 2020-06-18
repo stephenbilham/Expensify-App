@@ -13,9 +13,6 @@ export const Header = ({ startLogout }) => (
       <NavLink to="/create" activeClassName="is-active">
         Create expense
       </NavLink>
-      <NavLink to="/help" activeClassName="is-active">
-        Help
-      </NavLink>
       <button onClick={startLogout}>Logout</button>
     </div>
   </header>
@@ -26,3 +23,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(undefined, mapDispatchToProps)(Header);
+
+const db = {
+  users: {}
+};
